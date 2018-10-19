@@ -21,3 +21,7 @@ class RentMovieView(CreateAPIView):
 class ReturnMovieView(UpdateAPIView):
     queryset = RentMovie.objects.all()
     serializer_class = RentMovieSerializer
+
+class RentMovieListView(ListAPIView):
+    queryset = RentMovie.objects.all()
+    serializer_class = RentMovieSerializer
