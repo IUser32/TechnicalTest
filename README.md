@@ -28,6 +28,12 @@ Luego de haber inicializado el ambiente virtual. Debemos instalar los requerimie
 
 > pip install -r requirements.txt
 
+## Creación de un usuario
+
+Se debe de crear un usuario con el siguiente comando.
+
+> python manage.py createsuperuser
+
 ##  Correr el projecto
 
 Luego de haber instalado los paquetes necesarios debemos de correr el projecto. Utilizando el siguiente comando.
@@ -35,4 +41,7 @@ Luego de haber instalado los paquetes necesarios debemos de correr el projecto. 
 > python manage.py runserver react
 
 la palabra react es debido a que se enlazo el projecto backend con el de frontend, entonces para que compile el backend junto con el frontend se modifico el manage.py agregandole esta condición.
+
+
+
 
